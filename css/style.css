@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body, button {
+    font-family: 'Manrope', sans-serif;
+}
+
+.spring {
+    position: absolute;
+}
+
+.springleft {
+    top: 2rem;
+    left: -10rem;
+}
+
+.springright {
+    top: 12rem;
+    right: -2rem;
+    width: 11rem;
+}
+
+.whitetext {
+    color: #ffffff;
+}
+
+header {
+    background-color: #24053E;
+    overflow-x: hidden;
+}
+
+._header__button--underline {
+    font-size: 1.125rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #44ffa1;
+}
+
+._header__button--underline:hover, ._header__button--underline:active {
+    color:#44FFA1;
+    cursor: pointer;
+}
+
+._header__logolink {
+    display:flex;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+}
+
+._header__logolink img {
+    display: block;
+}
+
+._header__text {
+    width: 55%;
+    margin: auto;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 5rem;
+    padding-bottom: 10rem;
+}
+
+._header__text .borderbottomgreen {
+    text-decoration: underline;
+    text-decoration-color: #44ffa1;
+    text-underline-offset: 5%;
+    text-decoration-thickness: 2px;
+}
+
+._header__button--full {
+    color: #24053E;
+    background-color: #44FFA1;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+
+._header__button--full:hover, ._header__button--full:active {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #44FFA1;
+    color: #44FFA1;
+}
+
+._header__phone {
+    display: block;
+    width: 50%;
+    position: absolute;
+    top: 22rem;
+    right: 20rem;
+}
+
+.emptycontainerdark {
+    height: 3rem;
+    background-color: #24053E;
+    border-radius: 0 0 100% 100%;
+}
+
+._features {
+    padding: 15rem 6rem 2rem 6rem;
+    justify-content: space-between;
+    background-color: #FCF8FF;
+    display: flex;
+    color: #24053E;
+}
+
+._features__number {
+    border: 1px solid #24053E;
+    border-radius: 50%;
+    padding: 8px 14px;
+    font-weight: bold;
+}
+
+._features__insights, ._features__decision, ._features__cost {
+    width: 25%;
+    text-align: center;
+}
+
+._features__insights h3, ._features__decision h3, ._features__cost h3 {
+    padding: 3rem 0 2rem 0;
+}
+
+.emptycontainerlight {
+    height: 3rem;
+    background-color: #FCF8FF;
+    border-radius: 0 0 100% 100%;
+}
+
+._founder {
+    display: flex;
+    padding: 0 6rem;
+    margin-top: 6rem;
+}
+
+._founder__test {
+    color: #ffffff;
+    background-color: #24053E;
+    height: min-content;
+    padding: 3rem;
+    transform: translate(-4rem, 9rem);
+}
+
+._founder h2 {
+    font-size: 3.5rem;
+}
+
+._founder p {
+    font-size: 1.125rem;
+    padding: 2rem 0;
+}
+
+._founder__louis {
+    width: 25rem;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+.springbottom {
+    right: 3rem;
+    bottom: -4rem;
+}
+
+._footer {
+    margin: 12rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 36rem;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 1050px) {
+    
+}
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 90%;
+    }
+
+    ._header__phone {
+        position:absolute;
+        right:15rem;
+    }
+
+    .springbottom {
+        right: -2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 80%;
+    }
+
+    .springbottom {
+        right: -2rem;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 70%;
+    }
+
+    .springleft {
+        left: -16rem;
+        width: 30rem;
+    }
+
+    .springright {
+        right: -6rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    html {
+        font-size: 60%;
+    }
+
+    ._header__phone {
+        top: 25rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .springbottom {
+        top: 24rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 46%;
+    }
+
+    .springbottom {
+        top: 20rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+
+
